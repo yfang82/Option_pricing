@@ -13,3 +13,6 @@ pyfiles:<br>
 [plot_B.py](https://github.com/yfang82/Option_pricing/blob/main/Pricing/plot_B.py): plot iterations in calculating exercise boundary B and show the convergence of the method. <br> 
 [Binomial.py](https://github.com/yfang82/Option_pricing/blob/main/Pricing/Binomial.py): implement binomial tree method as shown in the ipynb file. <br> 
 
+Reference:<br> 
+In Joon Kim, et al. “A Simple Iterative Method for the Valuation of American Options.” Quantitative Finance, vol. 13, no. 6, 1 June 2013, pp. 885–895, https://doi.org/10.1080/14697688.2012.696780.<br> 
+“Pricing an American Option: 3 Period Binomial Tree Model.” Www.youtube.com, www.youtube.com/watch?v=35n7TICJbLc. Accessed 13 Jan. 2023.<br> 
