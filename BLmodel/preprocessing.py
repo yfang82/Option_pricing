@@ -44,12 +44,8 @@ def exreturn_adclose_df(names = ['MSFT','NVDA','AAPL','AMZN','META','GOOG','AVGO
     df = pd.DataFrame()
     for name in names:
         df[name] = pd.read_csv(name+'.csv',index_col='Date')['Adj Close'].pct_change()
-    # SP = yf.download("^GSPC",start = '2023-07-10', 
-    #                         end = '2024-07-05')['Adj Close']
     df = df.dropna()
-    # mk_ret = SP.pct_change().dropna()
-    # mk_ret.index = mk_ret.index.strftime('%Y-%m-%d')
-    # df = df.loc[mk_ret.index]
+
     return df
 
 def get_cov_matrix(df):
